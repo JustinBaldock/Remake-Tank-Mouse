@@ -1,4 +1,104 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5DD6536C
+P 1850 1800
+F 0 "SW2" H 1850 2085 50  0000 C CNN
+F 1 "SW_Push" H 1850 1994 50  0000 C CNN
+F 2 "" H 1850 2000 50  0001 C CNN
+F 3 "~" H 1850 2000 50  0001 C CNN
+	1    1850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5DD65E58
+P 1850 1400
+F 0 "SW3" H 1850 1685 50  0000 C CNN
+F 1 "SW_Push" H 1850 1594 50  0000 C CNN
+F 2 "" H 1850 1600 50  0001 C CNN
+F 3 "~" H 1850 1600 50  0001 C CNN
+	1    1850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DD666C9
+P 1850 2200
+F 0 "SW1" H 1850 2485 50  0000 C CNN
+F 1 "SW_Push" H 1850 2394 50  0000 C CNN
+F 2 "" H 1850 2400 50  0001 C CNN
+F 3 "~" H 1850 2400 50  0001 C CNN
+	1    1850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Conn:A500_A2000_Mouse_Port J1
+U 1 1 5DD67C84
+P 1350 3050
+F 0 "J1" H 1300 2950 50  0000 L CNN
+F 1 "A500_A2000_Mouse_Port" H 850 3050 50  0000 L CNN
+F 2 "" H 1350 3050 50  0001 C CNN
+F 3 "" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x04 SW?
+U 1 1 5DD6AB25
+P 3050 4200
+F 0 "SW?" H 3050 4667 50  0000 C CNN
+F 1 "SW_DIP_x04" H 3050 4576 50  0000 C CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "~" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x04 SW?
+U 1 1 5DD6BB02
+P 3050 3350
+F 0 "SW?" H 3050 3817 50  0000 C CNN
+F 1 "SW_DIP_x04" H 3050 3726 50  0000 C CNN
+F 2 "" H 3050 3350 50  0001 C CNN
+F 3 "~" H 3050 3350 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1500 900  1500 4000
+Wire Wire Line
+	1500 4000 1350 4000
+Wire Wire Line
+	1350 3800 2150 3800
+Wire Wire Line
+	2150 3800 2150 2200
+Wire Wire Line
+	2150 2200 2050 2200
+Wire Wire Line
+	1350 4100 2200 4100
+Wire Wire Line
+	2200 4100 2200 1800
+Wire Wire Line
+	2200 1800 2050 1800
+Wire Wire Line
+	1350 3700 2250 3700
+Wire Wire Line
+	2250 3700 2250 1400
+Wire Wire Line
+	2250 1400 2050 1400
 $EndSCHEMATC
